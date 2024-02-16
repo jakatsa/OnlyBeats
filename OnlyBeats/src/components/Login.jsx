@@ -1,20 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-const AUTH_URL =
-  "https://accounts.spotify.com/authorize?client_id=494ab72899794501b031b37168828296&response_type=code&redirect_uri=http://http://localhost:5173/&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state";
-const Login = () => {
-  return (
-    <div>
-      <Container>
-        <a href={AUTH_URL}>login</a>
-      </Container>
-    </div>
-  );
-};
-
-export default Login;
-
-/*import React from "react";?s
 import { Form, Button } from "react-bootstrap";
 import "../css/Login.css";
 
@@ -64,4 +48,4 @@ const Login = ({ onLogin, setLogInEmail, setLogInPassword }) => {
   );
 };
 
-export default Login;*/
+export default Login;
