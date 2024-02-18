@@ -1,0 +1,17 @@
+.navbar {
+  background-color: black !important; /* Important to override Bootstrap styles if necessary */
+}
+.navbar-brand {
+  color: white;
+}
+.form-control {
+  width: 100% !important;
+}
+.btn {
+  color: rgb(235, 226, 226);
+  background-color: rgb(71, 71, 62);
+}
+.btn:hover {
+  color: rgb(71, 71, 62);
+  background-color: rgb(235, 226, 226);
+}

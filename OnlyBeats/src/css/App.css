@@ -1,6 +1,6 @@
 /*.App {
   background-color: black;
 }*/
-.navbar {
-  background-color: aqua;
+.container {
+  width: 2000px !important;
 }
