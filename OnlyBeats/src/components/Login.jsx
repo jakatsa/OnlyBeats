@@ -66,7 +66,7 @@ const Login = ({ redirectToNavBar }) => {
             />
           </Form.Group>
           <Button onClick={handleLogin} variant="primary" type="submit">
-            Submit
+            Login
           </Button>
           <p onClick={handlePasswordReset} className="text-white">
             Forgot password?

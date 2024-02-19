@@ -12,7 +12,7 @@ function App() {
 
   const getTracks = async () => {
     let data = await fetch(
-      `https://v1.nocodeapi.com/kikirika/spotify/iXXnopwfqzXCuuCn/search?q=daku&type=track`
+      `https://v1.nocodeapi.com/kikirika/spotify/iXXnopwfqzXCuuCn/search?q=$daku&type=track`
     );
     let convertedData = await data.json();
     console.log(convertedData.tracks.items);
