@@ -2,7 +2,10 @@ import React from "react";
 
 function TrackList({ tracks }) {
   return (
-    <div className="container bg-dark" style={{ backgroundColor: "black" }}>
+    <div
+      className="container bg-dark"
+      style={{ backgroundColor: "black", marginTop: "50px" }}
+    >
       <div className="row">
         {tracks.map((element) => (
           <div key={element} className="col-lg-3 col-md-6 py-2">

@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Banner.css";
 const Banner = () => {
   return (
-    <div>
+    <div style={{ marginTop: "50px" }}>
       {/*caard images*/}
       <div className="cream-bg">
         <div className="container">
