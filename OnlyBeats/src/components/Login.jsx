@@ -5,7 +5,7 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import { auth } from "../firebase/firebase-config";
-
+import "../css/Login.css";
 const Login = ({ redirectToNavBar }) => {
   const [userCredentials, setUserCredentials] = useState({});
 
@@ -44,7 +44,9 @@ const Login = ({ redirectToNavBar }) => {
       <div className="mainStyle">
         <Form className="formStyle">
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label className="formLabel">Email address</Form.Label>
+            <Form.Label className="formLabel" style={{ width: "10px" }}>
+              Email address
+            </Form.Label>
             <Form.Control
               name="email"
               type="email"

@@ -1,11 +1,12 @@
-login style .formStyle {
+/* login style .formStyle {
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
-  /* margin-left: 500px;*dont uncomment*/
-}
+ margin-left: 500px;*dont uncomment*
+}*/
 .mainStyle {
+  height: 100vh;
   border: 1px solid #262626;
   margin: 0 auto;
   background-color: #1a1a1a;
@@ -19,4 +20,12 @@ login style .formStyle {
 }
 .formLabel {
   color: white;
+}
+h1 {
+  color: whitesmoke;
+  margin-left: 650px;
+  margin-bottom: 50px;
+}
+.mb-3 {
+  margin-top: 30px;
 }
