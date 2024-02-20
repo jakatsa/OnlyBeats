@@ -44,9 +44,7 @@ const Login = ({ redirectToNavBar }) => {
       <div className="mainStyle">
         <Form className="formStyle">
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label className="formLabel" style={{ width: "10px" }}>
-              Email address
-            </Form.Label>
+            <Form.Label className="formLabel">Email address</Form.Label>
             <Form.Control
               name="email"
               type="email"
@@ -66,7 +64,7 @@ const Login = ({ redirectToNavBar }) => {
             />
           </Form.Group>
           <Button onClick={handleLogin} variant="primary" type="submit">
-            Login
+            Submit
           </Button>
           <p onClick={handlePasswordReset} className="text-white">
             Forgot password?
